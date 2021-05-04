@@ -14,18 +14,20 @@
     <link rel="manifest" href="assets/favicons/site.webmanifest">
     <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
     <link rel="shortcut icon" href="assets/favicons/favicon.ico">
-    <link rel="stylesheet" href="assets/bootstrap.min.css" type="text/css"/>
-    <link rel="stylesheet" href="assets/main.css" type="text/css"/>
+		
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="css/main.css" type="text/css"/>
+		
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
-    <script type="text/javascript" src="v12_readable.js"></script>
+    <script type="text/javascript" src="js/v12_readable.js"></script>
     <script type="text/javascript">
         var emu = TI68kEmulatorCoreModule(window);
         var ui = TI68kEmulatorUIModule(window);
         var link = TI68kEmulatorLinkModule(window);
     </script>
-    <script type="text/javascript" src="v12rom.js"></script>
-    <script type="text/javascript" src="v12sav.js"></script>
+    <script type="text/javascript" src="js/v12rom.js"></script>
+    <script type="text/javascript" src="js/v12sav.js"></script>
     <script type="text/javascript">
         if (emu.apiversion() != 1) {
             throw "API version has changed, the script may have to be updated";

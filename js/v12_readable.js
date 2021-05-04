@@ -22,12 +22,6 @@
  */
 
 /*
- **************
- Todo/wish list
- **************
- ====
- MUST
- ====
 
  ------------------
  General / multiple
@@ -8336,7 +8330,7 @@ function TI68kEmulatorUIModule(stdlib) {
         var oldimg = document.getElementById(elementid_calcimg);
         var newimg = document.createElement('img');
         newimg.setAttribute('id', elementid_calcimg);
-        newimg.setAttribute('src', 'Ti-92plus.png');
+        newimg.setAttribute('src', 'img/Ti-92plus.png');
         newimg.setAttribute('usemap', '#' + elementid_calcmap);
 
         // some mods. by adriweb
@@ -8459,7 +8453,7 @@ function TI68kEmulatorUIModule(stdlib) {
         var oldimg = document.getElementById(elementid_calcimg);
         var newimg = document.createElement('img');
         newimg.setAttribute('id', elementid_calcimg);
-        newimg.setAttribute('src', 'Ti-v200.png');
+        newimg.setAttribute('src', 'img/Ti-v200.png');
         newimg.setAttribute('usemap', '#' + elementid_calcmap);
 
         // some mods. by adriweb

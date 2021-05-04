@@ -35,7 +35,7 @@ h2 {
   height: 50px;
   background-color: transparent;
   border: none;
-  background-image: url(btn_show.svg);
+  background-image: url(../assets/btn_show.svg);
   opacity: 0.2;
 }
 
@@ -44,7 +44,7 @@ h2 {
 }
 
 #hidebutton.toggled{
-  background-image: url(btn_hide.svg);
+  background-image: url(../assets/btn_hide.svg);
 }
 
 
